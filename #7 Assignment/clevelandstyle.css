@@ -1,0 +1,139 @@
+header, main, nav, footer, figure, figcaption, aside, section, 
+article { display: block; }
+#mobile { display: none; }
+#desktop { display: inline; }
+body {background-color: #4F6D93;
+background-image: linear-gradient(to bottom, #FFFFFF, #4F6D93);
+background-repeat: no-repeat; 
+color: #666666;font-family: Georgia, "Times New Roman", serif;
+ }
+header {background-color: #3366CC; 
+color: #FFFFFF; background-image: none);
+background-position: auto; background-repeat: no-repeat;
+height: 80px;
+padding-top: 20px;
+text-align: center;
+}
+ figure { width: 480px;
+           border: 1px solid #000000;
+		   padding: 5px;
+}
+  figcaption { text-align: center;
+               font-family: Papyrus, fantasy;
+}
+
+#wrapper { width: 85%;
+           background-color: #90C7E3;
+		   min-width: 960px;
+		   max-width: 2048px;
+		   box-shadow: 3px 3px 3px #3399CC;
+		   margin-left: auto;
+		   margin-right: auto;
+}
+nav { font-weight: normal;
+      padding : 20px;
+	  float: left;
+	  width: 150px;
+}
+nav a { text-decoration: underline; }
+nav ul { list-style-type: square;
+         padding-left: 0;
+		 margin: 15px;
+		 font-size: 1.3em;
+}
+nav a:link {color: #000033; }
+nav a:visited { color: #344873; }
+nav a:hover { color: #FFFFFF; }
+main { padding: 5px 20px 20px 30px; 
+      display: block;
+	  background-color: #FFFFFF;
+	  margin-left: 170px;
+	  display: block;
+}
+main ul { list-style-image: square);}
+
+}
+h1 { font-family: Georgia, "Times New Roman", serif;
+     font-size: 50%;
+     margin-top: 20px;
+}
+h2 { color: #3399CC; 
+    font-family: Georgia, "Times New Roman", serif;
+    text-shadow: 3px 3px 3px #CCCCCC;
+}
+footer { font-size: 80%; font-style: italic;
+         text-align: auto; 
+		 font-family: Georgia, "Times New Roman", serif;
+		 padding: 30px;
+		 margin-left: 170px;
+		 background-color: #FFFFFF;
+		 clear: both:
+}
+#clevelandview { height: 275px;
+             background-image: url(clevelandskyline.jpg);
+			 background-repeat: no-repeat;
+			 background-size: 100% 100%;
+			 margin-left: 170px;
+}
+#cavsview { height: 275px;
+             background-image: url(cleveland_cavaliers.jpe);
+			 background-repeat: no-repeat;
+			 background-size: 100% 100%;
+			 margin-left: 170px;
+}
+#brownsview { height: 275px;
+             background-image: url(clevelandbrowns.png);
+			 background-repeat: no-repeat;
+			 background-size: 80% 80%;
+			 margin-left: 170px;
+}
+#indiansview { height: 275px;
+             background-image: url(Indiansscript.gif);
+			 background-repeat: no-repeat;
+			 background-size: 80% 80%;
+			 margin-left: 170px;
+}
+
+#contact {font-size: .90em; }
+@media only screen and (max-width: 64em) {
+	body { margin: 0;
+	background-color: #FFFFFF; }
+	#wrapper { min-width: 0;
+	           width: auto;
+			   box-shadow: none
+	}
+	main { margin-left: 0; }
+	nav { float: none;
+	      width: auto;
+		  text-align: center;
+		  padding: 0.5em;
+	}
+	nav li { display: inline;
+             padding: .25em .75em;
+	}
+	#clevelandview, #cavsview, #brownsview, #indiansview { margin-left:0;
+	                                   height: 200px;
+	}
+	footer { margin-left: 0; }
+}
+@media only screen and (max-width: 320px)
+{
+	header { padding-top: 1em; }
+	main { padding: 0.1em 1em;
+	       font-size: 90%;
+	}
+	h1 { font-size: 1.5em; }
+	nav { padding: 0; }
+	nav li { display: block;
+	         margin: 0;
+	         border-bottom: 2px solid #330000;
+	}
+	nav a { display: block; }
+	#clevelandview, #cavsview, #brownsview, #indiansview { display: none;
+	                                   background-image: none;
+									   height: 0;
+	}
+	#mobile { display: inline; }
+	#desktop { display: none; }
+}
+
