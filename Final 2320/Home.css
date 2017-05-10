@@ -1,0 +1,31 @@
+﻿header { text-align: left;
+		 font-family: Cambria, serif;
+		 font-size: 16px;
+		 font-weight: bold;
+}
+ p { text-align : left;    
+     font-family: Calibri;
+     font-size: 12px;
+	 font-style: italic;
+	 margin: 25px;
+}
+body { font-family: Calibri;
+	   font-size: 12px;
+}
+
+.home { width: 520px;
+        border: 2px solid green;
+	    border-radius: 25px;
+        padding: 25px;
+        margin: 25px;
+	
+}
+
+input { margin-right: 250px;
+}text-align: right;
+        
+footer { margin: 25px;
+         font-size: 12px;
+}
+
+@media screen and (max-device-width: 320px)
